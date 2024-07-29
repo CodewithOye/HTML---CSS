@@ -1,0 +1,113 @@
+/* div{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    
+} */
+
+/* em */
+/* html{
+    font-size: 2em;
+}
+
+p{
+    font-size: 4em;
+}*/
+/* rem */
+
+/* html{
+    font-size: 16px;
+} */
+
+/*  it double up the root element, 1 rem is 16px  */
+/* p{
+    font-size: 2rem;
+} */
+
+
+/* width take the entire viewport */
+
+/* div{
+    background: red;
+    width: 100vw;
+    height: 100px;
+} */
+
+
+/* height take the entire view */
+/* div{
+    width: 120px;
+    height: 40vh;
+    background-color: blue;
+} */
+
+/* typography */
+
+/* h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: line-through;
+}
+p{
+    line-height: 40px;
+    letter-spacing: 3px;
+    cursor: auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+} */
+
+/* Box-Model */
+*{
+    margin: 0;
+}
+
+/* div{ */
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    padding: 20px;
+    margin: 20px; */
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+
+
+
+
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+
+
+
+    /* shorthand  */
+    /* border: 2px double red; */
+    /* border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+    border-right: 2px solid blue;
+    border-top: 2px solid black; */
+/* } */
+
+/* div{
+    height: 100vh;
+    background-color: red;
+    background-image: url('https://images.pexels.com/photos/230129/pexels-photo-230129.jpeg?auto=compress&cs=tinysrgb&w=1060&h=1050&dpr=2');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+} */

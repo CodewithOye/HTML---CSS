@@ -1,4 +1,13 @@
+h1{
+    color: rgb(86, 113, 201);
+    background-color: aliceblue;
+}
+h2{
+    color: blue;
+}
 h3{
-    color: black;
-    background-color: aquamarine;
+    color: #ff8374;
+}
+h4{
+    color: hsl(207, 75%, 41%);
 }
