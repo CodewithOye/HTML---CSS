@@ -101,6 +101,7 @@ a{
     border-top: 2px solid black; */
 /* } */
 
+
 /* div{
     height: 100vh;
     background-color: red;
@@ -111,3 +112,114 @@ a{
     background-position:center ;
     background-attachment: fixed;
 } */
+
+/* gradient */
+/* div{
+    height: 100vh;
+    background-color: red;
+    background-image:linear-gradient(rgba(15, 78, 15, 0.514),rgb(0, 47, 255) ), url('https://images.pexels.com/photos/230129/pexels-photo-230129.jpeg?auto=compress&cs=tinysrgb&w=1060&h=1050&dpr=2'); to right,top, bottom and left property
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+    filter: blur(20px); 
+    filter: brightness(10%);
+    filter: contrast(30%);
+    filter: grayscale(70%);
+    filter: saturate(10%);
+} */
+/* css selector */
+/* .one{
+    color: red;
+    font-size: 3rem;
+}
+.two{
+    color: blue;
+    font-size: 5rem;
+}
+.three{
+    color: green;
+}
+#value{
+    color: red;
+    font-size: 50px;
+} */
+
+/* css pseudo class */
+/* div *{
+    border: 2px solid red;
+} */
+
+/* element with class */
+/* div.value{
+    color: red;
+
+} */
+
+/* div p{
+    color: red;
+    font-size: 30px;
+} */
+ /* Element > Element */
+/* div > p{
+    color: red;
+    font-size: 30px;
+} */
+/* div + p{
+    color: red;
+    font-size: 30px;
+} */
+
+/* Pseudo Selector */
+
+
+/* .link:link{
+    color:red;
+}
+
+
+.visited:visited{
+    color: rgb(194, 10, 19);
+}
+.hover:hover{
+    color: green;
+}
+.active:active{
+    color: rgb(231, 217, 12);
+} */
+
+/* Display */
+
+/* span{
+    background-color: black;
+    color: white;
+
+} */
+/* .secondDiv{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+.span2{
+    display: inline-block;
+    background-color: green;
+    height: 300px;
+    width: 300px;
+
+
+} */
+
+div{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+/* to change the span to block, display none will remove the element */
+span{
+    display: block;
+    background-color: red;
+}
