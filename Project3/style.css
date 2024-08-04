@@ -67,9 +67,9 @@ a{
 } */
 
 /* Box-Model */
-*{
+/* *{
     margin: 0;
-}
+} */
 
 /* div{ */
     /* border-width: 5px;
@@ -211,15 +211,81 @@ a{
 
 } */
 
-div{
+/* div{
     background-color: black;
     color: white;
     display: inline-block;
     height: 50px;
     width: 50px;
-}
+} */
 /* to change the span to block, display none will remove the element */
-span{
+/* span{
     display: block;
     background-color: red;
+} */
+
+
+/* Box shadow */
+
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(15, 15, 100);
+    box-shadow: 10px 10px 20px orange;
+} */
+
+/* body {
+    background-color: black;
 }
+
+h1{
+    text-shadow: 2px 2px 2px  rgb(196, 196, 212);
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 50px;
+} */
+
+/* CSS INHERITANCE */
+ /* .parent{
+    color: orange;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    background: teal;
+ }
+ .children{
+    position: relative;
+    left: 100px;
+    height: inherit;
+    width: inherit;
+    background: inherit;
+
+ } */
+
+ /* Position */
+ /* .container{
+    background: gray;
+    width: 90%;
+    height: 500px;
+ }
+ .d{
+    width: 100px;
+    height: 100px;
+ }
+ .one{
+    background: red;
+    position: relative;
+    left: 100px;
+ }
+ .two{
+    background: blue;
+    position: absolute;
+    left: 100px;
+ }
+ .three{
+    background: purple;
+    position: sticky;
+    top: 100px;
+ } */
