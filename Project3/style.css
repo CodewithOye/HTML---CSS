@@ -289,3 +289,54 @@ h1{
     position: sticky;
     top: 100px;
  } */
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+    height: 100vh;
+    background-color: blueviolet;
+ }
+
+ .container{
+    border: 2px solid white;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    /* flexbox stuff here */
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* align-content: stretch; */
+    /* align-content: center; */
+ }
+
+ .container .child{
+    width: 400px;
+    height: 50px;
+    background: crimson;
+    text-align: center;
+    color: aliceblue;
+    margin: 5px;
+
+ }
+
+ .special{
+    /* order: 1; */
+    /* align-self: flex-start; */
+    /* flex-grow: 1; */
+    /* flex-basis:20px ; */
+    /* flex-shrink:2 ; */
+ }
+
+ .special-two{
+    /* flex-grow: 4; */
+    /* height: 500px; */
+    /* flex-basis: 100px; */
+ }
+
+ /* flexbox froggy */
