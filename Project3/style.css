@@ -294,28 +294,28 @@ h1{
     margin: 0;
     padding: 0;
  }
-
+/* 
  body{
     height: 100vh;
     background-color: blueviolet;
- }
+ } */
 
- .container{
-    border: 2px solid white;
-    width: 800px;
-    height: 400px;
-    margin: 20px auto;
+ /* .container{ */
+    /* border: 2px solid white; */
+    /* width: 800px; */
+    /* height: 400px; */
+    /* margin: 20px auto; */
     /* flexbox stuff here */
-    display: flex;
+    /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: space-around; */
     /* flex-wrap: wrap; */
     /* align-items: center; */
     /* align-content: stretch; */
     /* align-content: center; */
- }
+ /* } */
 
- .container .child{
+ /* .container .child{
     width: 400px;
     height: 50px;
     background: crimson;
@@ -323,20 +323,41 @@ h1{
     color: aliceblue;
     margin: 5px;
 
- }
+ } */
 
- .special{
+ /* .special{ */
     /* order: 1; */
     /* align-self: flex-start; */
     /* flex-grow: 1; */
     /* flex-basis:20px ; */
     /* flex-shrink:2 ; */
- }
+ /* } */
 
- .special-two{
+ /* .special-two{ */
     /* flex-grow: 4; */
     /* height: 500px; */
     /* flex-basis: 100px; */
- }
+ /* } */
 
  /* flexbox froggy */
+
+ /* grid  */
+
+
+ .container{
+    background: rgb(34, 34, 34);
+    padding: 20px;
+    height: 100vh;
+    /* grid stuff here */
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+ }
+
+ .s{
+    padding: 20px;
+    background: rgb(84, 84, 84);
+    text-align: center;
+    color: white;
+ }
