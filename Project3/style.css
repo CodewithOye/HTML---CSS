@@ -351,7 +351,7 @@ h1{
     /* grid stuff here */
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: repeat(3,1fr);
     gap: 10px;
  }
 
@@ -360,4 +360,16 @@ h1{
     background: rgb(84, 84, 84);
     text-align: center;
     color: white;
+ }
+
+ header{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-row-start:1 ;
+    grid-row-end: 3;
+ }
+
+ aside{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
  }
